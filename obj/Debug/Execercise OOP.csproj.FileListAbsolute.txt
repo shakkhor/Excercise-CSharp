@@ -1,0 +1,7 @@
+C:\Users\abdullah.sharfuddin\source\repos\Execercise OOP\Execercise OOP\bin\Debug\Execercise OOP.exe.config
+C:\Users\abdullah.sharfuddin\source\repos\Execercise OOP\Execercise OOP\bin\Debug\Execercise OOP.exe
+C:\Users\abdullah.sharfuddin\source\repos\Execercise OOP\Execercise OOP\bin\Debug\Execercise OOP.pdb
+C:\Users\abdullah.sharfuddin\source\repos\Execercise OOP\Execercise OOP\obj\Debug\Execercise OOP.csprojAssemblyReference.cache
+C:\Users\abdullah.sharfuddin\source\repos\Execercise OOP\Execercise OOP\obj\Debug\Execercise OOP.csproj.CoreCompileInputs.cache
+C:\Users\abdullah.sharfuddin\source\repos\Execercise OOP\Execercise OOP\obj\Debug\Execercise OOP.exe
+C:\Users\abdullah.sharfuddin\source\repos\Execercise OOP\Execercise OOP\obj\Debug\Execercise OOP.pdb
