@@ -10,12 +10,35 @@ namespace Execercise_OOP
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
+          
+            Console.WriteLine("Hello OOP!");
+            RunStopWatch();
             Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+           
+        }
+
+        private static void RunStopWatch()
+        {
+            var watch = new StopWatch();
+
+            while(true)
+            {
+                try
+                {
+                    string key = Console.ReadLine();
+                    switch (key)
+                    {
+                        case "S": Console.WriteLine($"Clock is started at {watch.start()}."); break;
+                        case "E": Console.WriteLine($"Clock has run for {watch.stop()} seconds"); break;
+                        default: Console.WriteLine("Invalid input. Please Enter S to start and E to stop"); break;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);    
+                }
+            }
         }
     }
 }
