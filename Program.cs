@@ -12,10 +12,21 @@ namespace Execercise_OOP
         {
           
             Console.WriteLine("Hello OOP!");
-            RunStopWatch();
+            //RunStopWatch();
+            VoteForPost();
             Console.ReadKey();
 
            
+        }
+
+        private static void VoteForPost()
+        {
+            var post = new Post();
+            post.DownVote();
+            post.UpVote();
+            post.DownVote();
+            post.DownVote();
+            Console.WriteLine(post.GetVote());
         }
 
         private static void RunStopWatch()
